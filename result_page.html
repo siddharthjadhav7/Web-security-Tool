@@ -1,0 +1,13 @@
+<html>
+<body>
+<table border=1 >
+{% for record in mydict %}
+<tr>
+<td>{{ record.name }}</td>
+<td>{{ record.content }}</td>
+<td>{{ record.result }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Welcome</h1>
+<form method="post" name="myform" action="/upload" enctype="multipart/form-data" >
+<input type="file" name="myFilename">
+<input type="submit" value="SUBMIT" name="submit" />
+</form>
+<form method="post" name="myform1" action="/display_result" enctype="multipart/form-data">
+Enter Filename:<br>
+<input type="text" name="input_file">
+<input type="submit" value="Analyze Code" name="result_file" />
+</form>
+<form method="post" name="myform2" action="/logout" enctype="multipart/form-data">
+<input type="submit" value="logout" name="Btn_logout" />
+</form>
+<form method="post" name="myform3" action="/ShowFiles" enctype="multipart/form-data">
+<input type="submit" value="View Files" name="View_Files" />
+</form>
+<script>
+</script>
+</body>
+</html>
